@@ -1,0 +1,22 @@
+{
+  "name": "dentalflow",
+  "private": true,
+  "description": "iCare 32 Dental Clinic (DentalFlow) - MongoDB, Express, React, Node.js",
+  "scripts": {
+    "postinstall": "npm install --prefix backend --no-audit --no-fund && npm install --prefix frontend --include=dev --no-audit --no-fund",
+    "setup": "npm install --prefix backend && npm install --prefix frontend --include=dev && npm run build --prefix frontend",
+    "start": "npm run start:prod --prefix backend",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "create-admin": "npm run create-admin --prefix backend",
+    "test": "npm test --prefix backend",
+    "lint": "npm run lint --prefix frontend",
+    "restore": "npm run restore --prefix backend --",
+    "reset-password": "npm run reset-password --prefix backend",
+    "backup": "npm run backup --prefix backend"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

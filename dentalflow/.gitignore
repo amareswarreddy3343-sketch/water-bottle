@@ -1,0 +1,28 @@
+# Environment — NEVER commit (only .env.example should be committed)
+.env
+.env.local
+.env.*.local
+.env.docker
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Node
+node_modules/
+frontend/dist/
+npm-debug.log*
+*.log
+
+# Built-in database, generated secrets, uploaded files
+backend/data/
+backend/mediafiles/
+backend/mediafiles_test/
+
+# Tests / coverage
+coverage/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

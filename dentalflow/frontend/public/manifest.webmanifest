@@ -1,0 +1,9 @@
+{
+  "name": "iCare 32 Dental Clinic",
+  "short_name": "iCare 32",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#f3f5f3",
+  "theme_color": "#a3245f",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
